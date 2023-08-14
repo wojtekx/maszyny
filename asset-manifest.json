@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maszyny/static/css/main.a7f2a323.css",
+    "main.js": "/maszyny/static/js/main.c22e4211.js",
+    "index.html": "/maszyny/index.html",
+    "main.a7f2a323.css.map": "/maszyny/static/css/main.a7f2a323.css.map",
+    "main.c22e4211.js.map": "/maszyny/static/js/main.c22e4211.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7f2a323.css",
+    "static/js/main.c22e4211.js"
+  ]
+}
