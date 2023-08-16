@@ -38,10 +38,10 @@ export const MachineForm = () => {
                 
            
                 setTimeout(() => {
-                    navigate("/");
+                    navigate(-1);
                     resetForm();
                     setshowAlert(false);
-                }, 1500);
+                }, 500);
             } else {
                 setShowValidationAlert(true)
             }
@@ -51,10 +51,10 @@ export const MachineForm = () => {
                 addMachine({ id: uuid(), ...inputValues });
                 setshowAlert(true);
                 setTimeout(() => {
-                    navigate("/");
+                    navigate(-1);
                     resetForm();
                     setshowAlert(false);
-                }, 1500);
+                }, 500);
             } else {
                 setShowValidationAlert(true)
             }
