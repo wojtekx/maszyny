@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { getListMachines } from '../service/localstorage';
 
 export const MachineList = () => {
-    const [machines, setMachines] = useState([]);
+    const [machines, setMachines] = useState(getListMachines());
     const [isModalVisible, setModalVisible] = useState(false);
     const [currentMachine, setCurrentMachine] = useState({date: '', name: ''});
 
@@ -55,6 +55,9 @@ export const MachineList = () => {
                                 }
                             </tbody>
                         </table>
+                        <footer className='footer'>
+                            <p>wersja 1.0.0</p>
+                        </footer>
                     </div>
                 ) : (
                     <h3 className="text-center">Brak danych</h3>

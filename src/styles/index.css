@@ -5,3 +5,11 @@
     text-align: center;
     margin: 20px 0 40px;
 }
+
+.footer {
+    margin-top: auto;
+}
+
+.card {
+    height: calc(100vh - 72px);
+}
