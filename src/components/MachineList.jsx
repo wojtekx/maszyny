@@ -9,7 +9,7 @@ export const MachineList = () => {
 
     useEffect(() => {
         setMachines(getListMachines());
-    }, []);
+    }, [machines]);
 
     const createModal = (date, name) => {
         setModalVisible(true);
