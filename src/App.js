@@ -8,9 +8,9 @@ export const App = () => (
     <Navbar />
     <div className="">
       <Routes>
-        <Route path="/" element={<MachineList />} />
-        <Route path="/create-machine" element={<MachineForm />} />
-        <Route path="/edit-machine/:id" element={<MachineForm />} />
+        <Route path="/maszyny" element={<MachineList />} />
+        <Route path="/maszyny/create-machine" element={<MachineForm />} />
+        <Route path="/maszyny/edit-machine/:id" element={<MachineForm />} />
       </Routes>
     </div>
   </div>

@@ -14,7 +14,7 @@ export const Navbar = () => {
 
                         <button
                             className="btn btn-outline-secondary my-2 my-sm-0"
-                            onClick={() => navigate("/create-machine")}
+                            onClick={() => navigate("/maszyny/create-machine")}
                         >
                             Dodaj
                         </button>

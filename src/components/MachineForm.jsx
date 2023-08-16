@@ -83,7 +83,7 @@ export const MachineForm = () => {
                 )
             }
             <div className="d-flex my-3 mx-5 justify-content-between">
-                <button type="button" className="btn btn-primary" onClick={() => navigate("/")}>Wróć</button>
+                <button type="button" className="btn btn-primary" onClick={() => navigate(-1)}>Wróć</button>
                 <h2 className="text-center">{id ? "Edytuj" : "Dodaj nową"} maszynę</h2>
                 <div />
             </div>

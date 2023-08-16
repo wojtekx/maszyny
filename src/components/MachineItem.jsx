@@ -22,7 +22,7 @@ export const MachineItem = ({ machine, setMachines }) => {
             <td>{nextDate}</td>
             <td style={{width: 160}}>
                 <div className="d-flex gap-3">
-                    <span type="button" className="badge bg-success" onClick={() => navigate(`/edit-machine/${id}`)}>Edycja</span>
+                    <span type="button" className="badge bg-success" onClick={() => navigate(`/maszyny/edit-machine/${id}`)}>Edycja</span>
                     <span type="button" className="badge bg-danger" onClick={() => deleteMachine()}>Usuń</span>
                 </div>
             </td>
